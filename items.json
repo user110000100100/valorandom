@@ -1,0 +1,224 @@
+{
+  "agents": [
+    {
+      "src": "astra.webp",
+      "role": "controller"
+    },
+    {
+      "src": "breach.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "brimstone.webp",
+      "role": "controller"
+    },
+    {
+      "src": "chamber.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "clove.webp",
+      "role": "controller"
+    },
+    {
+      "src": "cypher.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "deadlock.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "fade.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "gekko.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "harbor.webp",
+      "role": "controller"
+    },
+    {
+      "src": "iso.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "jett.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "KAYO.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "killjoy.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "miks.webp",
+      "role": "controller"
+    },
+    {
+      "src": "neon.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "omen.webp",
+      "role": "controller"
+    },
+    {
+      "src": "phoenix.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "raze.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "reyna.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "sage.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "skye.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "sova.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "tejo.webp",
+      "role": "initiator"
+    },
+    {
+      "src": "veto.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "viper.webp",
+      "role": "controller"
+    },
+    {
+      "src": "vyse.webp",
+      "role": "sentinel"
+    },
+    {
+      "src": "waylay.webp",
+      "role": "duelist"
+    },
+    {
+      "src": "yoru.webp",
+      "role": "duelist"
+    }
+  ], 
+  
+  "weapons": [
+    {
+      "src": "melee.webp",
+      "price": 0,
+      "type": "melee"
+    },
+    {
+      "src": "classic.webp",
+      "price": 0,
+      "type": "sidearm"
+    },
+    {
+      "src": "shorty.webp",
+      "price": 300,
+      "type": "sidearm"
+    },
+    {
+      "src": "frenzy.webp",
+      "price": 450,
+      "type": "sidearm"
+    },
+    {
+      "src": "ghost.webp",
+      "price": 500,
+      "type": "sidearm"
+    },
+    {
+      "src": "bandit.webp",
+      "price": 600,
+      "type": "sidearm"
+    },
+    {
+      "src": "sheriff.webp",
+      "price": 800,
+      "type": "sidearm"
+    },
+    {
+      "src": "stinger.webp",
+      "price": 1100,
+      "type": "smg"
+    },
+    {
+      "src": "spectre.webp",
+      "price": 1600,
+      "type": "smg"
+    },
+    {
+      "src": "bucky.webp",
+      "price": 850,
+      "type": "shotgun"
+    },
+    {
+      "src": "judge.webp",
+      "price": 1850,
+      "type": "shotgun"
+    },
+    {
+      "src": "bulldog.webp",
+      "price": 2050,
+      "type": "rifle"
+    },
+    {
+      "src": "guardian.webp",
+      "price": 2250,
+      "type": "rifle"
+    },
+    {
+      "src": "phantom.webp",
+      "price": 2900,
+      "type": "rifle"
+    },
+    {
+      "src": "vandal.webp",
+      "price": 2900,
+      "type": "rifle"
+    },
+    {
+      "src": "marshal.webp",
+      "price": 950,
+      "type": "sniper"
+    },
+    {
+      "src": "outlaw.webp",
+      "price": 2400,
+      "type": "sniper"
+    },
+    {
+      "src": "operator.webp",
+      "price": 4700,
+      "type": "sniper"
+    },
+    {
+      "src": "ares.webp",
+      "price": 1600,
+      "type": "machine-gun"
+    },
+    {
+      "src": "odin.webp",
+      "price": 3200,
+      "type": "machine-gun"
+    }
+  ]
+ 
+}
