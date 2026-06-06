@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valorandom</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="title-container">
+                <h1 class="title">
+                    VALO<span class="red">RANDOM</span>
+                </h1>
+            </div>
+            <div class="nav-container">
+                <ul class="nav-list">
+                    <li><a class="tab-button" data-target="agents">Agents</a></li>
+                    <li><a class="tab-button" data-target="weapons">Armes</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="main-page centered-parent">
+            <div class="centered-child">
+                 <section id="agents" class="tab-content">
+                    <div class="top-section">
+                        <h1 class="tab-title">Tirage <span class="red">agents</span></h1>
+                        
+                        <div class="buttons-container">
+                            <div class="left-buttons">
+                                <button class="draw-button">Tirer un agent</button>
+                                <label class="agents-switch switch-delete-item">Supprimer l'agent tiré
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="right-buttons">
+                                <p class="agents-count items-count"><span class="agents-left left-count"></span> / <span class="agents-total total-count"></span></p>
+                                <button class="agents-reset reset-button">Réinitialiser</button>
+                            </div>
+                        </div>
+
+                        <div class="result-card agents-result-card">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                        
+                    </div>
+                    <div class="bottom-section">
+                        <div class="agents-list items-list"></div>
+                    </div>
+                </section>
+
+                <section id="weapons" class="tab-content">
+                    <div class="top-section">
+                        <h1 class="tab-title">Tirage <span class="red">armes</span></h1>
+                        
+                        <div class="buttons-container">
+                            <div class="left-buttons">
+                                <button class="draw-button">Tirer une arme</button>
+                                <label class="weapons-switch switch-delete-item">Supprimer l'arme tirée
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="right-buttons">
+                                <p class="weapons-count items-count"><span class="weapons-left left-count"></span> / <span class="weapons-total total-count"></span></p>
+                                <button class="weapons-reset reset-button">Réinitialiser</button>
+                            </div>
+                        </div>
+
+                        <div class="result-card weapons-result-card">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                        
+                    </div>
+                    <div class="bottom-section">
+                        <div class="weapons-list items-list"></div>
+                    </div>
+                </section>
+
+            </div>
+        </div>       
+
+    </body>
+
+    <script src="script.js"></script>
+</html>
